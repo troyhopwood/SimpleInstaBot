@@ -117,9 +117,9 @@ async function initInstauto({
   };
 
   const options = {
-    // Testing
-    // randomizeUserAgent: false,
-    // userAgent: 'Mozilla/5.0 (Linux; Android 9; RMX1971) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36',
+    // Hardcoding to use the Edge browsser
+    randomizeUserAgent: true,
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39',
 
     cookiesPath,
 
